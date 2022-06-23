@@ -3,7 +3,7 @@
 - **Create and save your custom todolists by writing `/customList` on the website route and save your tasks on your personal todolist!**
 
 <p align="center">
-<img src="https://github.com/abhinavkashyap061/todolist/blob/main/readme-assets/customlist-preview.jpg?raw=true" alt="Custom ToDoList Preview" width="70%">
+<img src="https://github.com/abhinavkashyap061/todolist/blob/main/readme-assets/customlist-preview.jpg?raw=true" alt="Custom ToDoList Preview" width="50%">
 </p>
 
 - All the todolist items are being stored in the **MongoDB** database.

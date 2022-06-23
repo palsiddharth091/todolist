@@ -2,7 +2,9 @@
 - A basic To Do list app made using node.js, express and ejs templating
 - **Create and save your custom todolists by writing `/customList` on the website route and save your tasks on your personal todolist!**
 
-<img src="https://github.com/abhinavkashyap061/todolist/blob/main/readme-assets/customlist-preview.jpg?raw=true" alt="Custom ToDoList Preview" width="80%">
+<p align="center">
+<img src="https://github.com/abhinavkashyap061/todolist/blob/main/readme-assets/customlist-preview.jpg?raw=true" alt="Custom ToDoList Preview" width="70%">
+</p>
 
 - All the todolist items are being stored in the **MongoDB** database.
 

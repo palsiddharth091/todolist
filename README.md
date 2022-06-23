@@ -5,8 +5,6 @@
 <img src="https://github.com/abhinavkashyap061/todolist/blob/main/readme-assets/customlist-preview.jpg?raw=true" alt="Custom ToDoList Preview" width="50%">
 </p>
 
-- All the todolist items are being stored in the **MongoDB** database.
-
 <!-- <img src="https://github.com/abhinavkashyap061/todolist/blob/main/readme-assets/homepage-preview.jpg?raw=true" alt="Today ToDoList Preview"> -->
 
 

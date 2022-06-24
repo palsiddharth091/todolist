@@ -168,7 +168,7 @@ app.post("/delete", (req, res) => {
     // checking if the list from the default list
     if( listName=="Today"){
 
-        Item.findOneAndRemove(checkedItemId, (err) => {
+        Item.findByIdAndRemove(checkedItemId, (err) => {
 
             if(err){
 

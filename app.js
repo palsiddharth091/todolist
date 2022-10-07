@@ -79,7 +79,7 @@ const defaultItems = [item1, item2, item3];
 // ROUTES FOR TODO LIST APP
 app.get("/", (req, res) => {
 
-    // rendering databse items and passing it to home page
+    // rendering database items and passing it to home page
     Item.find({}, (err, results) => {
 
         // if there is no todolist items

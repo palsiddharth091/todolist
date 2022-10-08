@@ -94,8 +94,65 @@ input[type="text"]:focus {
   font-family: 'Krona One', sans-serif;
 }
 
-footer {
-  color: #c5c6c7;
-  text-align: center;
-  font-family: 'Krona One', sans-serif;
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Roboto:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html{
+    height: 100%;
+}
+
+body{
+	font-family: 'Open Sans', sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+}
+
+a{
+    text-decoration: none;
+}
+
+footer{
+    background-color:#0a0b10;
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 30px;
+    margin-top: auto;
+}
+
+footer li{
+    list-style: none;
+    margin: 10px;
+    display: inline-block;
+}
+
+.icons a{
+    background: black;
+    color: #272727;
+    padding: 14px;
+    font-size: 20px;
+    border-radius: 100%;
+    display: flex;
+}
+.icons a:hover{
+    color: #ffffff;
+    transition: 0.5s;
+}
+
+
+
+.footer-copyright{
+    background-color:black;
+    color: #ffffff;
+    padding: 15px;
+    margin-top: 30px;
+    text-transform: capitalize;
+}
+
+.footer-copyright p{
+    margin-bottom: 0px;
 }

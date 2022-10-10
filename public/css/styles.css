@@ -3,30 +3,30 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,600;1,700;1,800&display=swap");
 
 :root {
-  --Krona: "Krona", sans-serif;
+  --Verdana: "Verdana", sans-serif;
   --open-sans: "Open Sans", sans-serif;
 }
 
 html {
-  background-color: #0b0c10;
+  background-color: #161a21;
 }
 
 h1 {
-  color: #45a29e;
-  padding: 10px;
+  color: #8192dd;
+  padding: 12px;
   font-family: "Open-sans", sans-serif;
 }
 
 .box {
-  max-width: 400px;
-  margin: 50px auto;
+  max-width: auto;
+  margin: 60px auto;
   background: #1f2833;
-  border-radius: 5px;
-  box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
+  border-radius: 20px;
+  box-shadow: 10px 5px 20px -5px #66fcf1;
 }
 
 #heading {
-  background-color: #1f2833;
+  background-color: #d9e1ec;
   text-align: center;
 }
 
@@ -48,7 +48,7 @@ input:checked + p {
 
 
 input[type="checkbox"]  {
-  appearance: none;
+  appearance: y;
   /* background-color: #0b0c10; */
   background-image: url("../images/trash-can-10417.png");
   margin: 0;
@@ -148,7 +148,7 @@ a {
 }
 
 footer {
-  background-color: #0a0b10;
+  background-color: #161a21;
   text-align: center;
   text-transform: uppercase;
   padding-top: 30px;
@@ -162,20 +162,20 @@ footer li {
 }
 
 .icons a {
-  background: black;
-  color: #272727;
+  background: auto;
+  color: #f0f0f0;
   padding: 14px;
-  font-size: 20px;
+  font-size: 36px;
   border-radius: 100%;
   display: flex;
 }
 .icons a:hover {
-  color: #ffffff;
+  color: #2e7de4;
   transition: 0.5s;
 }
 
 .footer-copyright {
-  background-color: black;
+  background-color: #161b22;
   color: #ffffff;
   padding: 15px;
   margin-top: 30px;

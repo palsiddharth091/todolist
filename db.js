@@ -2,7 +2,7 @@ const mongoose = require('mongoose')
 
 const connectDB = async () => {
   await mongoose.connect(
-    'mongodb+srv://root:admin@cluster0.jxqdz.mongodb.net/todo?retryWrites=true&w=majority',
+    'mongodb://localhost:27017/todolistDB',
     { useNewUrlParser: true, useUnifiedTopology: true },
     () => {
       console.log('Connected to MongoDB')

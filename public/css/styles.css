@@ -46,8 +46,7 @@ input:checked + p {
   text-decoration-color: #45a29e;
 }
 
-
-input[type="checkbox"]  {
+input[type="checkbox"] {
   appearance: y;
   /* background-color: #0b0c10; */
   background-image: url("../images/trash-can-10417.png");
@@ -60,8 +59,8 @@ input[type="checkbox"]  {
 }
 
 input[type="checkbox"]:hover {
-cursor: pointer 
-;}
+  cursor: pointer;
+}
 
 p {
   margin: 0;
@@ -96,7 +95,7 @@ button {
 }
 
 button:hover {
-cursor: pointer;
+  cursor: pointer;
 }
 
 input[type="text"] {
@@ -148,7 +147,8 @@ a {
 }
 
 footer {
-  background-color: #161a21;
+  background-color: #2a2d38;
+  text-align: center;
   text-align: center;
   text-transform: uppercase;
   padding-top: 30px;
@@ -164,8 +164,8 @@ footer li {
 .icons a {
   background: auto;
   color: #f0f0f0;
-  padding: 14px;
-  font-size: 36px;
+  padding: 10px;
+  font-size: 20px;
   border-radius: 100%;
   display: flex;
 }
@@ -175,10 +175,7 @@ footer li {
 }
 
 .footer-copyright {
-  background-color: #161b22;
   color: #ffffff;
-  padding: 15px;
-  margin-top: 30px;
   text-transform: capitalize;
 }
 

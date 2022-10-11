@@ -1,56 +1,76 @@
 @import url("https://fonts.googleapis.com/css2?family=Krona+One&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
-
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,600;1,700;1,800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Roboto:wght@300&display=swap");
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+html {
+  background-color: #161a21;
+  height: 100%;
+}
 :root {
   --Verdana: "Verdana", sans-serif;
   --open-sans: "Open Sans", sans-serif;
 }
-
-html {
-  background-color: #161a21;
+body {
+  font-family: "Open Sans", sans-serif;
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
 }
+
+a {
+  text-decoration: none;
+}
+
+/* 
+==========
+LIST
+========== 
+*/
 
 h1 {
   color: #8192dd;
   padding: 12px;
   font-family: "Open-sans", sans-serif;
 }
+#heading {
+  /* background-color: #d9e1ec; */
+  text-align: center;
+}
 
 .box {
   max-width: auto;
-  margin: 60px auto;
+  margin: 30px auto;
   background: #1f2833;
-  border-radius: 20px;
-  box-shadow: 10px 5px 20px -5px #66fcf1;
+  border-radius: 5px;
+  /* box-shadow: 10px 5px 20px -5px #66fcf1; */
+  display: flex;
+  flex-direction: column;
 }
 
-#heading {
-  background-color: #d9e1ec;
+form.item {
   text-align: center;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 .item {
   min-height: 50px;
-  display: flex;
-  align-items: center;
   border-bottom: 1px solid #f1f1f1;
 }
-
+.item:hover {
+  cursor: pointer ;
+}
 .item:last-child {
   border-bottom: 0;
 }
 
-input:checked + p {
-  text-decoration: line-through;
-  text-decoration-color: #45a29e;
-}
-
-
 input[type="checkbox"]  {
-  appearance: y;
-  /* background-color: #0b0c10; */
-  background-image: url("../images/trash-can-10417.png");
+
   margin: 0;
   font: inherit;
   width: 1.15em;
@@ -58,29 +78,46 @@ input[type="checkbox"]  {
   transform: translateY(-0.075em);
   margin: 20px;
 }
-
 input[type="checkbox"]:hover {
 cursor: pointer 
 ;}
 
 p {
-  margin: 0;
-  padding: 20px;
+  /* margin: 0; */
+  /* padding: 20px; */
   font-size: 20px;
   font-weight: 200;
   color: #66fcf1;
   font-family: "Open-sans", sans-serif;
 }
 
-.item label {
-  display: flex;
-  align-items: center;
+input:checked + p {
+  text-decoration: line-through;
+  text-decoration-color: #45a29e;
 }
 
-form.item {
+input[type="text"] {
   text-align: center;
-  margin-left: 20px;
-  margin-right: 20px;
+  height: 60px;
+  top: 10px;
+  border-radius: 10px;
+  border: none;
+  background: #0b0c10;
+  font-size: 20px;
+  font-weight: 200;
+  width: 313px;
+  color: #66fcf1;
+  font-family: "Open-sans", sans-serif;
+  margin-bottom: 20px;
+}
+input[type="text"]:focus {
+  outline: none;
+  box-shadow: inset 0 -3px 0 0 #66fcf1;
+}
+::placeholder {
+  color: #45a29e;
+  opacity: 1;
+  font-family: "Open-sans", sans-serif;
 }
 
 button {
@@ -100,55 +137,12 @@ button {
 button:hover {
   background: #cbfffd;
   cursor: pointer;
-}
 
-input[type="text"] {
-  text-align: center;
-  height: 60px;
-  top: 10px;
-  border-radius: 10px;
-  border: none;
-  background: #0b0c10;
-  font-size: 20px;
-  font-weight: 200;
-  width: 313px;
-  color: #66fcf1;
-  font-family: "Open-sans", sans-serif;
-  margin-bottom: 20px;
-}
-
-input[type="text"]:focus {
-  outline: none;
-  box-shadow: inset 0 -3px 0 0 #66fcf1;
-}
-
-::placeholder {
-  color: #45a29e;
-  opacity: 1;
-  font-family: "Open-sans", sans-serif;
-}
-
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Roboto:wght@300&display=swap");
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: inherit;
-}
-
-html {
-  height: 100%;
-}
-
-body {
-  font-family: "Open Sans", sans-serif;
-  display: flex;
-  flex-direction: column;
-  min-height: 100%;
-}
-
-a {
-  text-decoration: none;
-}
+/* 
+==========
+FOOTER
+========== 
+*/
 
 footer {
   background-color: #161a21;

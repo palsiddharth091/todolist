@@ -63,14 +63,13 @@ form.item {
   border-bottom: 1px solid #f1f1f1;
 }
 .item:hover {
-  cursor: pointer ;
+  cursor: pointer;
 }
 .item:last-child {
   border-bottom: 0;
 }
 
-input[type="checkbox"]  {
-
+input[type="checkbox"] {
   margin: 0;
   font: inherit;
   width: 1.15em;
@@ -79,8 +78,8 @@ input[type="checkbox"]  {
   margin: 20px;
 }
 input[type="checkbox"]:hover {
-cursor: pointer 
-;}
+  cursor: pointer;
+}
 
 p {
   /* margin: 0; */
@@ -137,6 +136,7 @@ button {
 button:hover {
   background: #cbfffd;
   cursor: pointer;
+}
 
 /* 
 ==========
@@ -145,7 +145,8 @@ FOOTER
 */
 
 footer {
-  background-color: #161a21;
+  background-color: #2a2d38;
+  text-align: center;
   text-align: center;
   text-transform: uppercase;
   padding-top: 30px;
@@ -161,8 +162,8 @@ footer li {
 .icons a {
   background: auto;
   color: #f0f0f0;
-  padding: 14px;
-  font-size: 36px;
+  padding: 10px;
+  font-size: 25px;
   border-radius: 100%;
   display: flex;
 }
@@ -172,13 +173,11 @@ footer li {
 }
 
 .footer-copyright {
-  background-color: #161b22;
   color: #ffffff;
-  padding: 15px;
-  margin-top: 30px;
   text-transform: capitalize;
 }
 
 .footer-copyright p {
-  margin-bottom: 0px;
+  margin-bottom: 20px;
+  font-size: 15px;
 }

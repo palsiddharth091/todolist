@@ -25,11 +25,13 @@
    ```sh
    git clone https://github.com/abhinavkashyap061/todolist.git
    ```
+
 3. Enter the local directory
 
    ```sh
    cd todolist
    ```
+
 3. Install the required npm packages
 
    ```sh

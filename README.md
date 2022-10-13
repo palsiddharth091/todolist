@@ -25,11 +25,6 @@
    ```sh
    git clone https://github.com/abhinavkashyap061/Dear-Diary.git
    ```
-3. Enter the local directory
-
-   ```sh
-   cd Dear-Diary
-   ```
 3. Install the required npm packages
 
    ```sh

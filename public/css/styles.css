@@ -63,7 +63,6 @@ h1 {
   font-family: "Open-sans", sans-serif;
 }
 #heading {
-  /* background-color: #d9e1ec; */
   text-align: center;
 }
 
@@ -72,7 +71,6 @@ h1 {
   margin: 30px auto;
   background: #1f2833;
   border-radius: 5px;
-  /* box-shadow: 10px 5px 20px -5px #66fcf1; */
   display: flex;
   flex-direction: column;
 }
@@ -107,8 +105,6 @@ input[type="checkbox"]:hover {
 }
 
 p {
-  /* margin: 0; */
-  /* padding: 20px; */
   font-size: 20px;
   font-weight: 200;
   color: #66fcf1;
@@ -174,7 +170,6 @@ footer {
   text-align: center;
   text-align: center;
   text-transform: uppercase;
-  padding-top: 30px;
   margin-top: auto;
 }
 
@@ -205,85 +200,4 @@ footer li {
 .footer-copyright p {
   margin-bottom: 20px;
   font-size: 15px;
-}
-
-/*
-==========
-NAVBAR
-========== 
-*/
-
-@media screen and (max-width:750px) {
-  #home{
-      margin-top: 6rem;
-  }
-  .nav-links{
-      text-align:left;
-      margin-left: 2rem;
-  }
-}
-
-.nav-links{
-  position: relative;
-}
-
-.nav-links::after{
-  content: '';
-  position: absolute;
-  width: 100%;
-  transform: scaleX(0);
-  height: 1px;
-  bottom: 0;
-  left: 0;
-  /* background-color: #1abc9c; */
-  background-color: #0CBABA;
-  transform-origin: bottom right;
-  transition: transform 0.25s ease-out;
-}
-
-.nav-links:hover::after{
-  transform: scaleX(1);
-  transform-origin: bottom left;
-}
-
-.nav-links:hover{
-  zoom: 105%;
-  margin-top: 8px;
-  margin-bottom: 8px;
-}
-
-.navbar-brand:hover{
-  zoom: 110%;
-  margin-top: 5px;
-  margin-bottom: 5px;
-}
-
-
-.navbar-brand
-{
-  text-transform: uppercase;
-  background-image: linear-gradient(
-  -225deg,
-  /* #18ea37 0%, */
-  #380036 0%,
-  /* #2cb5a9 29%, */
-  /* #398a21 67%, */
-  /* #128cbc 100% */
-  #0CBABA 100%
-  );
-  background-size: auto auto;
-  background-clip: border-box;
-  background-size: 200% auto;
-  color: #fff;
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  animation: textclip 2s linear infinite;
-  display: inline-block;
-}
-
-@keyframes textclip {
-  to {
-    background-position: 200% center;
-  }
 }

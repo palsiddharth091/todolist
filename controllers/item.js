@@ -144,8 +144,6 @@ exports.getList = (req, res) => {
         console.log('does not exists')
       } else {
         res.render('list', { listTitle: results.name, results: results.items })
-
-        console.log('exists')
       }
     }
   })

@@ -18,8 +18,10 @@
 
                     <!-- sends out the POST request to delete the item  -->
                     <label>
+                      <div class="task">
                         <input type="checkbox" name="checkbox" onChange="this.form.submit();" value="<%= i._id %>">
-                        <p><%= i.name %></p>
+                        <p class="task-font"><%= i.name %></p>
+                      </div>  
                     </label>
                     
                 </div>

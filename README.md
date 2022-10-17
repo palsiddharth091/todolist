@@ -23,13 +23,15 @@
 2. Clone the repository. You can paste the below command in your local shell/terminal.
 
    ```sh
-   git clone https://github.com/abhinavkashyap061/Dear-Diary.git
+   git clone https://github.com/abhinavkashyap061/todolist.git
    ```
+
 3. Enter the local directory
 
    ```sh
-   cd Dear-Diary
+   cd todolist
    ```
+
 3. Install the required npm packages
 
    ```sh

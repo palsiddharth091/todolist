@@ -1,16 +1,20 @@
 {
+  "name": "todolist",
+  "version": "1.0.0",
+  "description": "A basic To Do list app made using node.js, express and ejs templating. All the todolist items are being stored in the MongoDB database.",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
   "dependencies": {
     "body-parser": "^1.20.0",
+    "dotenv": "^16.0.3",
     "ejs": "^3.1.8",
     "express": "^4.18.1",
     "lodash": "^4.17.21",
     "mongoose": "^6.4.0"
-  },
-  "engines": {
-    "node": "14.x"
-  },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node app.js"
   }
 }
